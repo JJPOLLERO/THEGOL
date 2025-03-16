@@ -1,1 +1,43 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Colors.black,
+        body: Stack(
+          children: [
+            // Centered logo with adjustable positioning
+            Align(
+              alignment: Alignment(0.0, -0.3), // Adjust this to move the logo
+              child: Image.asset(
+                'assets/images/logo.png',
+                height: 200,
+                width: 150,
+              ),
+            ),
+            // Text placed below the logo
+            Align(
+              alignment: Alignment(0.0, 0.2), // Adjust this to move the text
+              child: Text(
+                'The Gym Of Legends',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
 
