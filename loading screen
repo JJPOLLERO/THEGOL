@@ -1,3 +1,9 @@
+/*Autored by:John Joseph Pollero
+Company:Padihon Corp.
+Project: The GOL (Gym Of Legends)
+Feature: Home Page
+Description: A page that display when the user opens the application */
+
 import 'package:flutter/material.dart';
 
 void main() {
