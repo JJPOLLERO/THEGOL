@@ -1,3 +1,10 @@
+/*Autored by:Jann Jasper Rosero and John Joseph Poller
+Company:Padihon Corp.
+Project: The GOL (Gym Of Legends)
+Feature: Profile
+Description: A page that ask the user of physical activity level and 
+displays user profile */ 
+
 import 'package:flutter/material.dart';
 
 void main() {
