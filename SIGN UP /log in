@@ -1,3 +1,8 @@
+/*Autored by:Jann Jasper Rosero and John Joseph Poller
+Company:Padihon Corp.
+Project: The GOL (Gym Of Legends)
+Feature: Home Page
+Description: A page for the user to log in or create an account */ 
 import 'package:flutter/material.dart';
 
 void main() {
